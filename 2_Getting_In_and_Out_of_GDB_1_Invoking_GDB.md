@@ -2,6 +2,10 @@
 
 [Go Back](./README.md)
 
+<a href="#2_1_1">2.1.1 Choosing Files</a><br />
+<a href="#2_1_2">2.1.2 Choosing Modes</a><br />
+<a href="#2_1_3">2.1.3 What GDB Does During Startup</a>
+
 ----
 
 Invoke GDB by running the program **gdb**. Once started, GDB reads commands from the terminal until you tell it to exit.
@@ -38,7 +42,7 @@ to display all available options and briefly describe their use.
 
 All options and command line arguments you give are processed in sequential order.
 
-## 2.1.1 Choosing Files
+## 2.1.1 Choosing Files <a name="2_1_1"></a>
 
 Many options have both long and short forms; both are shown in the following list. GDB also recognizes the long forms if you truncate them, so long as enough of the option is present to be unambiguous.
 ```
@@ -118,7 +122,7 @@ Read each symbol file’s entire symbol table immediately, rather than the defau
 ```
 Do not read each symbol file’s symbolic debug information. This makes startup faster but at the expense of not being able to perform symbolic debugging. DWARF unwind information is also not read, meaning backtraces may become incomplete or inaccurate. One use of this is when a user simply wants to do the following sequence: attach, dump core, detach. Loading the debugging information in this case is an unnecessary cause of delay.
 
-## 2.1.2 Choosing Modes
+## 2.1.2 Choosing Modes <a name="2_1_2"></a>
 
 You can run GDB in various alternative modes—for example, in batch mode or quiet mode.
 
@@ -248,17 +252,17 @@ This option causes GDB to print its version number and no-warranty blurb, and ex
 This option causes GDB to print details about its build-time configuration parameters, and then exit. These details can be important when reporting GDB bugs (see GDB Bugs).
 
 
-## 2.1.3 What GDB Does During Startup
+<a name="2_1_3"></a>## 2.1.3 What GDB Does During Startup
 
 Here’s the description of what GDB does during session startup:
 
-1. Sets up the command interpreter as specified by the command line (see interpreter).
-2. Reads the system-wide init file (if --with-system-gdbinit was used when building GDB; see System-wide configuration and settings) and executes all the commands in that file.
-3. Reads the init file (if any) in your home directory1 and executes all the commands in that file.
+1. Sets up the command interpreter as specified by the command line.
+2. Reads the system-wide init file (if --with-system-gdbinit was used when building GDB) and executes all the commands in that file.
+3. Reads the init file (if any) in your home directory and executes all the commands in that file.
 4. Executes commands and command files specified by the ‘-iex’ and ‘-ix’ options in their specified order. Usually you should use the ‘-ex’ and ‘-x’ options instead, but this way you can apply settings before GDB init files get executed and before inferior gets loaded.
 5. Processes command line options and operands.
-6. Reads and executes the commands from init file (if any) in the current working directory as long as ‘set auto-load local-gdbinit’ is set to ‘on’ (see Init File in the Current Directory). This is only done if the current directory is different from your home directory. Thus, you can have more than one init file, one generic in your home directory, and another, specific to the program you are debugging, in the directory where you invoke GDB.
-7. If the command line specified a program to debug, or a process to attach to, or a core file, GDB loads any auto-loaded scripts provided for the program or for its loaded shared libraries. See Auto-loading.
+6. Reads and executes the commands from init file (if any) in the current working directory as long as ‘set auto-load local-gdbinit’ is set to ‘on’. This is only done if the current directory is different from your home directory. Thus, you can have more than one init file, one generic in your home directory, and another, specific to the program you are debugging, in the directory where you invoke GDB.
+7. If the command line specified a program to debug, or a process to attach to, or a core file, GDB loads any auto-loaded scripts provided for the program or for its loaded shared libraries.
 8. Executes commands and command files specified by the ‘-ex’ and ‘-x’ options in their specified order. See Command Files, for more details about GDB command files.
 9. Reads the command history recorded in the history file. See Command History, for more details about the command history and the files where GDB records it.
 
