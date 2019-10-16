@@ -252,7 +252,7 @@ This option causes GDB to print its version number and no-warranty blurb, and ex
 This option causes GDB to print details about its build-time configuration parameters, and then exit. These details can be important when reporting GDB bugs (see GDB Bugs).
 
 
-<a name="2_1_3"></a>## 2.1.3 What GDB Does During Startup
+## 2.1.3 What GDB Does During Startup <a name="2_1_3"></a>
 
 Here’s the description of what GDB does during session startup:
 
