@@ -8,3 +8,4 @@ You can abbreviate a GDB command to the first few letters of the command name, i
 
 [Command Syntax: How to give commands to GDB](./3_1_Command_Syntax.md)
 [Command Settings: How to change default behavior of commands](./3_2_Command_Settings.md)
+[Completion: Command completion](./3_3_Command_Completion.md)

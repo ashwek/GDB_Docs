@@ -15,3 +15,4 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
 3. [GDB Commands](./3_GDB_Commands.md)
   - [Command Syntax](./3_1_Command_Syntax.md)
   - [Command Settings](./3_2_Command_Settings.md)
+  - [Command completion](./3_3_Command_Completion.md)
