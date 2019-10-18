@@ -1,0 +1,7 @@
+# 3 GDB Commands
+
+[Go Back](./README.md)
+
+----
+
+You can abbreviate a GDB command to the first few letters of the command name, if that abbreviation is unambiguous; and you can repeat certain GDB commands by typing just **RET**. You can also use the _TAB_ key to get GDB to fill out the rest of a word in a command.
