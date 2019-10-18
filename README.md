@@ -6,13 +6,23 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
 
 ----
 
-1. [A sample GDB Session](./1_A_Sample_GDB_Session.md)
-2. [Getting In and Out of GDB](./2_Getting_In_and_Out_of_GDB.md)
-  - [Invoking GDB](./2_1_Invoking_GDB.md)
-  - [Quitting GDB](./2_2_Quitting_GDB.md)
-  - [Shell Commands](./2_3_Shell_Commands.md)
-  - [Logging Output](./2_4_Logging_Output.md)
-3. [GDB Commands](./3_GDB_Commands.md)
-  - [Command Syntax](./3_1_Command_Syntax.md)
-  - [Command Settings](./3_2_Command_Settings.md)
-  - [Command completion](./3_3_Command_Completion.md)
+<ol type="1">
+    <li><a href="./1_A_Sample_GDB_Session.md">A sample GDB Session</a></li>
+    <li>
+        <a href="./2_Getting_In_and_Out_of_GDB.md">Getting In and Out of GDB</a>
+        <ol type="1">
+            <li><a href="./2_1_Invoking_GDB.md">Invoking GDB</a></li>
+            <li><a href="./2_2_Quitting_GDB.md">Quitting GDB</a></li>
+            <li><a href="./2_3_Shell_Commands.md">Shell Commands</a></li>
+            <li><a href="./2_4_Logging_Output.md">Logging Output</a></li>
+        </ol>
+    </li>
+    <li>
+        <a href="./3_GDB_Commands.md">GDB Commands</a>
+        <ol type="1">
+            <li><a href="./3_1_Command_Syntax.md">Command Syntax</a></li>
+            <li><a href="./3_2_Command_Settings.md">Command Settings</a></li>
+            <li><a href="./3_3_Command_Completion.md">Command completion</a></li>
+        </ol>
+    </li>
+</ol>
