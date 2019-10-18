@@ -11,3 +11,4 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
   - [Invoking GDB](./2_1_Invoking_GDB.md)
   - [Quitting GDB](./2_2_Quitting_GDB.md)
   - [Shell Commands](./2_3_Shell_Commands.md)
+  - [Logging Output](./2_4_Logging_Output.md)
