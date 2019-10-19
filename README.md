@@ -27,4 +27,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./3_5_Getting_Help.md">Getting Help</a></li>
         </ol>
     </li>
+    <li>
+        <a href="./4_Running_Programs_Under_GDB.md">Running Programs Under GDB</a>
+    </li>
 </ol>
