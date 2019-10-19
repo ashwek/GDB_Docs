@@ -24,6 +24,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./3_2_Command_Settings.md">Command Settings</a></li>
             <li><a href="./3_3_Command_Completion.md">Command completion</a></li>
             <li><a href="./3_4_Command_Options.md">Command Options</a></li>
+            <li><a href="./3_5_Getting_Help.md">Getting Help</a></li>
         </ol>
     </li>
 </ol>
