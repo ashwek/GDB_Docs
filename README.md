@@ -31,5 +31,6 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
         <a href="./4_Running_Programs_Under_GDB.md">Running Programs Under GDB</a>
         <ol type="1">
             <li><a href="./4_1_Compiling_for_Debugging.md">Compiling for Debugging</a></li>
+            <li><a href="4_2_Starting_Your_Program.md">Starting your Program</a></li>
     </li>
 </ol>
