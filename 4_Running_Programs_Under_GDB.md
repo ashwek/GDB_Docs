@@ -12,4 +12,5 @@ You may start GDB with its arguments, if any, in an environment of your choice. 
 [Starting: Starting your program](./4_2_Starting_Your_Program.md)<br />
 [Arguments: Your program’s arguments](./4_3_Your_Programs_Arguments.md)<br />
 [Environment: Your program’s environment](./4_4_Your_Programs_Environment.md)<br />
-[Working Directory: Your program’s working directory](./4_5_Your_Programs_Working_Directory.md)<br /> 
+[Working Directory: Your program’s working directory](./4_5_Your_Programs_Working_Directory.md)<br />
+[Input/Output: Your program’s input and output](./4_6_Your_Programs_Input_And_Output.md)<br />
