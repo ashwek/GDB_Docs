@@ -14,3 +14,4 @@ You may start GDB with its arguments, if any, in an environment of your choice. 
 [Environment: Your program’s environment](./4_4_Your_Programs_Environment.md)<br />
 [Working Directory: Your program’s working directory](./4_5_Your_Programs_Working_Directory.md)<br />
 [Input/Output: Your program’s input and output](./4_6_Your_Programs_Input_And_Output.md)<br />
+[Attach: Debugging an already-running process](./4_7_Debugging_an_Already_Running_Process.md)<br />

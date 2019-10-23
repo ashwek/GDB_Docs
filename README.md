@@ -36,5 +36,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="4_4_Your_Programs_Environment.md">Your Programs Environment</a></li>
             <li><a href="4_5_Your_Programs_Working_Directory.md">Your Programs Working Directory</a></li>
             <li><a href="4_6_Your_Programs_Input_And_Output.md">Your Programs Input & Output</a></li>
+            <li><a href="4_7_Debugging_an_Already_Running_Process.md">Debugging an Already Running Process</a></li>
+
     </li>
 </ol>
