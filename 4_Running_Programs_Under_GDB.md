@@ -16,3 +16,4 @@ You may start GDB with its arguments, if any, in an environment of your choice. 
 [Input/Output: Your program’s input and output](./4_6_Your_Programs_Input_And_Output.md)<br />
 [Attach: Debugging an already-running process](./4_7_Debugging_an_Already_Running_Process.md)<br />
 [Kill Process: Killing the child process](./4_8_Killing_the_Child_Process.md)<br />
+[Inferiors and Programs: Debugging multiple inferiors and programs](./4_9_Debugging_Multiple_Inferiors_and_Programs.md)<br />
