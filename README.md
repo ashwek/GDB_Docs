@@ -45,5 +45,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
     </li>
     <li>
         <a href="5_Stopping_and_Continuing.md">Stopping and Continuing</a>
+        <ol type="1">
+            <li><a href="5_1_Breakpoints_Watchpoints_Catchpoints.md">Breakpoints, Watchpoints, and Catchpoints</a></li>
     </li>
 </ol>
