@@ -19,3 +19,4 @@ Some GDB commands accept a space-separated list of breakpoints on which to opera
 ----
 
 [Set Breaks: Setting breakpoints](./5_1_1_Setting_Breakpoints.md)<br />
+[Set Watchpoints: Setting watchpoints](./5_1_2_Setting_Watchpoints.md)<br />
