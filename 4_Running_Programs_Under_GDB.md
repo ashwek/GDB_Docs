@@ -19,3 +19,4 @@ You may start GDB with its arguments, if any, in an environment of your choice. 
 [Inferiors and Programs: Debugging multiple inferiors and programs](./4_9_Debugging_Multiple_Inferiors_and_Programs.md)<br />
 Threads: Debugging programs with multiple threads<br />
 Forks: Debugging forks<br />
+[Checkpoint/Restart: Setting a bookmark to return to later](./4_12_Setting_a_Bookmark_to_Return_to_Later.md)<br />
