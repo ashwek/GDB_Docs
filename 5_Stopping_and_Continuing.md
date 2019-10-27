@@ -18,3 +18,4 @@ Display information about the status of your program: whether it is running or n
 
 
 [Breakpoints: Breakpoints, watchpoints, and catchpoints ](./5_1_Breakpoints_Watchpoints_Catchpoints.md)<br />
+[Continuing and Stepping: Resuming execution](./5_2_Continuing_and_Stepping.md)<br />
