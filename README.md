@@ -59,6 +59,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
                     <li><a href="./5_1_8_Dynamic_Printf.md">Dynamic Printf</a></li>
                     <li><a href="./5_1_9_Saving_Breakpoints.md">Saving Breakpoints</a></li>
                     <li>Static Probe Points</li>
+                    <li><a href="./5_1_11_Breakpoint_Errors.md">Errors in Breakpoint</a></li>
                 </ol>
             </li>
         </ol>
