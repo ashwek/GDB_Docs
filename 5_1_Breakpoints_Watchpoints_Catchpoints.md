@@ -25,3 +25,4 @@ Some GDB commands accept a space-separated list of breakpoints on which to opera
 [Disabling: Disabling breakpoints](./5_1_5_Disabling_Breakpoints.md)<br />
 [Conditions: Break conditions](./5_1_6_Break_Conditions.md)<br />
 [Break Commands: Breakpoint command lists](./5_1_7_Breakpoint_Commands.md)<br />
+[Dynamic Printf: Dynamic printf](./5_1_8_Dynamic_Printf.md)<br />
