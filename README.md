@@ -31,27 +31,28 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
         <a href="./4_Running_Programs_Under_GDB.md">Running Programs Under GDB</a>
         <ol type="1">
             <li><a href="./4_1_Compiling_for_Debugging.md">Compiling for Debugging</a></li>
-            <li><a href="4_2_Starting_Your_Program.md">Starting your Program</a></li>
-            <li><a href="4_3_Your_Programs_Arguments.md">Your Programs Arguemnts</a></li>
-            <li><a href="4_4_Your_Programs_Environment.md">Your Programs Environment</a></li>
-            <li><a href="4_5_Your_Programs_Working_Directory.md">Your Programs Working Directory</a></li>
-            <li><a href="4_6_Your_Programs_Input_And_Output.md">Your Programs Input & Output</a></li>
-            <li><a href="4_7_Debugging_an_Already_Running_Process.md">Debugging an Already Running Process</a></li>
-            <li><a href="4_8_Killing_the_Child_Process.md">Killing the Child Process</a></li>
-            <li><a href="4_9_Debugging_Multiple_Inferiors_and_Programs.md">Debugging Multiple Inferiors & Programs</a></li>
+            <li><a href="./4_2_Starting_Your_Program.md">Starting your Program</a></li>
+            <li><a href="./4_3_Your_Programs_Arguments.md">Your Programs Arguemnts</a></li>
+            <li><a href="./4_4_Your_Programs_Environment.md">Your Programs Environment</a></li>
+            <li><a href="./4_5_Your_Programs_Working_Directory.md">Your Programs Working Directory</a></li>
+            <li><a href="./4_6_Your_Programs_Input_And_Output.md">Your Programs Input & Output</a></li>
+            <li><a href="./4_7_Debugging_an_Already_Running_Process.md">Debugging an Already Running Process</a></li>
+            <li><a href="./4_8_Killing_the_Child_Process.md">Killing the Child Process</a></li>
+            <li><a href="./4_9_Debugging_Multiple_Inferiors_and_Programs.md">Debugging Multiple Inferiors & Programs</a></li>
             <li>Debugging programs with multiple threads</li>
             <li>Debugging forks</li>
-            <li><a href="4_12_Setting_a_Bookmark_to_Return_to_Later.md">Setting a Bookmark to Return to Later</a></li>
+            <li><a href="./4_12_Setting_a_Bookmark_to_Return_to_Later.md">Setting a Bookmark to Return to Later</a></li>
     </li>
     <li>
-        <a href="5_Stopping_and_Continuing.md">Stopping and Continuing</a>
+        <a href="./5_Stopping_and_Continuing.md">Stopping and Continuing</a>
         <ol type="1">
             <li>
-                <a href="5_1_Breakpoints_Watchpoints_Catchpoints.md">Breakpoints, Watchpoints, and Catchpoints</a>
+                <a href="./5_1_Breakpoints_Watchpoints_Catchpoints.md">Breakpoints, Watchpoints, and Catchpoints</a>
                 <ol type="1">
-                    <li><a href="5_1_1_Setting_Breakpoints.md">Setting Breakpoints</a></li>
-                    <li><a href="5_1_2_Setting_Watchpoints.md">Setting Watchpoints</a></li>
-                    <li><a href="5_1_3_Setting_Catchpoints.md">Setting Catchpoints</a></li>
+                    <li><a href="./5_1_1_Setting_Breakpoints.md">Setting Breakpoints</a></li>
+                    <li><a href="./5_1_2_Setting_Watchpoints.md">Setting Watchpoints</a></li>
+                    <li><a href="./5_1_3_Setting_Catchpoints.md">Setting Catchpoints</a></li>
+                    <li><a href="./5_1_4_Deleting_Breakpoints.md">Deleting Breakpoints</a></li>
                 </ol>
             </li>
         </ol>
