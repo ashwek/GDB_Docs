@@ -53,6 +53,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
                     <li><a href="./5_1_2_Setting_Watchpoints.md">Setting Watchpoints</a></li>
                     <li><a href="./5_1_3_Setting_Catchpoints.md">Setting Catchpoints</a></li>
                     <li><a href="./5_1_4_Deleting_Breakpoints.md">Deleting Breakpoints</a></li>
+                    <li><a href="./5_1_5_Disabling_Breakpoints.md">Disabling Breakpoints</a></li>
                 </ol>
             </li>
         </ol>

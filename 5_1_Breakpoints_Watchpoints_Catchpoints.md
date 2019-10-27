@@ -22,3 +22,4 @@ Some GDB commands accept a space-separated list of breakpoints on which to opera
 [Set Watchpoints: Setting watchpoints](./5_1_2_Setting_Watchpoints.md)<br />
 [Set Catchpoints: Setting catchpoints](./5_1_3_Setting_Catchpoints.md)<br />
 [Delete Breaks: Deleting breakpoints](./5_1_4_Deleting_Breakpoints.md)<br />
+[Disabling: Disabling breakpoints](./5_1_5_Disabling_Breakpoints.md)<br />
