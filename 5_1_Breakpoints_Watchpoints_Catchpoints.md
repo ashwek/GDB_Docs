@@ -23,3 +23,5 @@ Some GDB commands accept a space-separated list of breakpoints on which to opera
 [Set Catchpoints: Setting catchpoints](./5_1_3_Setting_Catchpoints.md)<br />
 [Delete Breaks: Deleting breakpoints](./5_1_4_Deleting_Breakpoints.md)<br />
 [Disabling: Disabling breakpoints](./5_1_5_Disabling_Breakpoints.md)<br />
+[Conditions: Break conditions](./5_1_6_Break_Conditions.md)<br />
+[Break Commands: Breakpoint command lists](./5_1_7_Breakpoint_Commands.md)<br />
