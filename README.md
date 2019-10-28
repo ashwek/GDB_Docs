@@ -42,6 +42,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li>Debugging programs with multiple threads</li>
             <li>Debugging forks</li>
             <li><a href="./4_12_Setting_a_Bookmark_to_Return_to_Later.md">Setting a Bookmark to Return to Later</a></li>
+        </ol>
     </li>
     <li>
         <a href="./5_Stopping_and_Continuing.md">Stopping and Continuing</a>
