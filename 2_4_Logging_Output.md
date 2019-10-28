@@ -1,7 +1,5 @@
 # 2.4 Logging Output
 
-[Go Back](./README.md)
-
 ----
 
 You may want to save the output of GDB commands to a file. There are several commands to control GDB’s logging.
@@ -40,3 +38,42 @@ By default, GDB debug output will go to both the terminal and the logfile. Set d
 show logging
 ```
 Show the current values of the logging settings. You can also redirect the output of a GDB command to a shell command using pipe.
+
+
+_Example:_
+```
+Reading symbols from a.out...done.
+
+(gdb) set logging off
+Done logging to gdb.txt.
+(gdb) show logging
+Future logs will be written to gdb.txt.
+Logs will be appended to the log file.
+Output will be logged and displayed.
+
+
+(gdb) set logging on
+Copying output to gdb.txt.
+(gdb) show logging
+Currently logging to "gdb.txt".
+Logs will be appended to the log file.
+Output will be logged and displayed.
+
+
+(gdb) run
+Starting program: /home/ashwek/GitHub/a.out
+
+
+Hello World
+
+[Inferior 1 (process 7944) exited normally]
+
+
+(gdb) !cat gdb.txt
+Currently logging to "gdb.txt".
+Logs will be appended to the log file.
+Output will be logged and displayed.
+Starting program: /home/ashwek/GitHub/a.out
+[Inferior 1 (process 7944) exited normally]
+(gdb)
+```
