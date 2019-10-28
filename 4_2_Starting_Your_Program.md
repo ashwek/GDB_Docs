@@ -32,3 +32,10 @@ The execution of a program is affected by certain information it receives from i
 
 
 When you issue the ``run`` command, your program begins to execute immediately. If the modification time of your symbol file has changed since the last time GDB read its symbols, GDB discards its symbol table, and reads it again. When it does this, GDB tries to retain your current breakpoints.
+
+```
+start
+```
+The name of the main procedure can vary from language to language. With C or C++, the main procedure name is always main, but other languages such as Ada do not require a specific name for their main procedure. The debugger provides a convenient way to start the execution of the program and to stop at the beginning of the main procedure, depending on the language used.
+
+The ``start`` command does the equivalent of setting a temporary breakpoint at the beginning of the main procedure and then invoking the ``run`` command.
