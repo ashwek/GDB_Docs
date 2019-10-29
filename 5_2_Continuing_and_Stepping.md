@@ -22,7 +22,7 @@ A typical technique for using stepping is to set a breakpoint at the beginning o
 ```
 step
 ```
-Continue running your program until control reaches a different source line, then stop it and return control to GDB. This command is abbreviated ``s``.
+**Continue running your program until control reaches a different source line**, then stop it and return control to GDB. This command is abbreviated ``s``.
 
 The ``step`` command only stops at the first instruction of a source line. This prevents the multiple stops that could otherwise occur in switch statements, for loops, etc. ``step`` continues to stop if a function that has debugging information is called within the line. In other words, step steps inside any functions called within the line.
 
@@ -34,6 +34,33 @@ Continue running as in step, but do so count times. If a breakpoint is reached, 
 ```
 next [count]
 ```
-Continue to the next source line in the current stack frame. This is similar to ``step``, but function calls that appear within the line of code are executed without stopping. Execution stops when control reaches a different line of code at the original stack level that was executing when you gave the next command. This command is abbreviated _n_.
+Continue to the next source line **in the current stack frame**. This is similar to ``step``, but function calls that appear within the line of code are executed without stopping. Execution stops when control reaches a different line of code at the original stack level that was executing when you gave the next command. This command is abbreviated _n_.
 
 The ``next`` command only stops at the first instruction of a source line. This prevents multiple stops that could otherwise occur in switch statements, for loops, etc.
+
+```
+finish
+```
+Continue running until just after function in the selected stack frame returns. Print the returned value (if any). This command can be abbreviated as ``fin``.
+
+```
+until
+u
+```
+Continue running until a source line past the current line, in the current stack frame, is reached. _This command is used to avoid single stepping through a loop more than once._ It is like the ``next`` command, except that when ``until`` encounters a jump, it automatically continues execution until the program counter is greater than the address of the jump.
+
+This means that when you reach the end of a loop after single stepping though it, ``until`` makes your program continue execution until it exits the loop. In contrast, a ``next`` command at the end of a loop simply steps back to the beginning of the loop, which forces you to step through the next iteration. ``until`` always stops your program if it attempts to exit the current stack frame.
+
+```
+stepi
+stepi arg
+si
+```
+Execute one machine instruction, then stop and return to the debugger.
+
+```
+nexti
+nexti arg
+ni
+```
+Execute one machine instruction, but if it is a function call, proceed until the function returns. 
