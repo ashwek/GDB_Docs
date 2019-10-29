@@ -2,6 +2,21 @@
 
 [Online Documentation](http://sourceware.org/gdb/current/onlinedocs/gdb/)
 
+----
+
+#### [CppCon 2015: Greg Law " Give me 15 minutes & I'll change your view of GDB" - Youtube](https://www.youtube.com/watch?v=PorfLSr3DDI)
+
+----
+
+#### GDB commands
+
+ - **CTRL + X + A** : toggle to / from **_TUI_** mode
+ - **CTRL + L** : Refresh / Repaint the screen
+ - **CTRL + P** / **CTRL + N** : Previous / Next commands in TUI mode
+ - **CTRL + X + 2** : Second Window, cycle through (in TUI)
+
+----
+
 The purpose of a debugger such as GDB is to allow you to see what is going on “inside” another program while it executes—or what another program was doing at the moment it crashed.
 
 ----
