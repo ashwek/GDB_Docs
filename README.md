@@ -67,6 +67,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./5_2_Continuing_and_Stepping.md">Continuing and Stepping</a></li>
             <li><a href="./5_3_Skipping_Over_Functions_and_Files.md">Skipping Over Functions and Files</a></li>
             <li><a href="./5_4_Signals.md">Signals</a></li>
+            <li>Stopping and Starting Multi-Thread Programs</li>
         </ol>
     </li>
 </ol>

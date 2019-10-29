@@ -21,3 +21,4 @@ Display information about the status of your program: whether it is running or n
 [Continuing and Stepping: Resuming execution](./5_2_Continuing_and_Stepping.md)<br />
 [Skipping Over Functions and Files: Skipping over functions and files](./5_3_Skipping_Over_Functions_and_Files.md)<br />
 [Signals: Signals](./5_4_Signals.md)<br />
+Thread Stops: Stopping and starting multi-thread programs<br />
