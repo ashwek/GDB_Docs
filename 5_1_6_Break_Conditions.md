@@ -21,3 +21,33 @@ Specify expression as the break condition for breakpoint, watchpoint, or catchpo
 condition bnum
 ```
 Remove the condition from breakpoint number _bnum_. It becomes an ordinary unconditional breakpoint.
+
+
+_Example_
+```
+(gdb) list 1
+1       #include <stdio.h>
+2
+3       int main(int argc, char *argv[]){
+4
+5           int i = 0;
+6
+7           printf("Enter a value : ");
+8           scanf("%d", &i);
+9
+10          return 0;
+
+(gdb) break 9 if (i > 10)
+Breakpoint 4 at 0x555555554768: file Xu.c, line 9.
+
+(gdb) run
+Starting program: /home/ashwek/GitHub/a.out
+Enter a value : 5
+[Inferior 1 (process 26284) exited normally]
+
+(gdb) run
+Starting program: /home/ashwek/GitHub/a.out
+Enter a value : 15
+Breakpoint 4, main (argc=1, argv=0x7fffffffde88) at Xu.c:10
+10          return 0;
+```
