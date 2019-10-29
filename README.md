@@ -70,4 +70,5 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li>Stopping and Starting Multi-Thread Programs</li>
         </ol>
     </li>
+    <li><a href="./6_Running_Programs_Backward.md">Running Programs Backward</a></li>
 </ol>
