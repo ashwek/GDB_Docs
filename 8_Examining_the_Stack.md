@@ -11,3 +11,7 @@ When your program stops, the GDB commands for examining the stack allow you to s
 One of the stack frames is selected by GDB and many GDB commands refer implicitly to the selected frame. In particular, whenever you ask GDB for the value of a variable in your program, the value is found in the selected frame. There are special GDB commands to select whichever frame you are interested in.
 
 When your program stops, GDB automatically selects the currently executing frame and describes it briefly, similar to the ``frame`` command.
+
+----
+
+[Frames: Stack frames](./8_1_Stack_Frames.md)<br />

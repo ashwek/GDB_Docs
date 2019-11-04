@@ -87,5 +87,10 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
     </li>
     <li><a href="./6_Running_Programs_Backward.md">Running Programs Backward</a></li>
     <li><a href="./7_Recording_Inferiors_Execution_and_Replaying_it.md">Recording Inferior's Execution and Replaying It</a></li>
-    <li><a href="./8_Examining_the_Stack.md">Examining the Stack</a></li>
+    <li>
+        <a href="./8_Examining_the_Stack.md">Examining the Stack</a>
+        <ol type="1">
+            <li><a href="./8_1_Stack_Frames.md">Stack Frames</a></li>
+        </ol>
+    </li>
 </ol>
