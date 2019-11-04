@@ -15,3 +15,4 @@ When your program stops, GDB automatically selects the currently executing frame
 ----
 
 [Frames: Stack frames](./8_1_Stack_Frames.md)<br />
+[Backtrace: Backtraces](./8_2_Backtrace.md)<br />

@@ -91,6 +91,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
         <a href="./8_Examining_the_Stack.md">Examining the Stack</a>
         <ol type="1">
             <li><a href="./8_1_Stack_Frames.md">Stack Frames</a></li>
+            <li><a href="./8_2_Backtrace.md">Backtrace</a></li>
         </ol>
     </li>
 </ol>
