@@ -100,5 +100,8 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
     </li>
     <li>
         <a href="./9_Examining_Source_Files.md">Examining Source Files</a>
+        <ol type="1">
+            <li><a href="./9_1_Printing_Source_Lines.md">Printing Source Lines</a></li>
+        </ol>
     </li>
 </ol>
