@@ -110,6 +110,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
                     <li><a href="./9_2_3_Address_Locations.md">Address Locations</a></li>
                 </ol>
             </li>
+            <li><a href="./9_3_Editing_Source_Files.md">Editing Source Files</a></li>
         </ol>
     </li>
 </ol>
