@@ -7,3 +7,4 @@ GDB can print parts of your program’s source, since the debugging information 
 [List: Printing source lines](./9_1_Printing_Source_Lines.md)<br />
 [Specify Location: How to specify code locations](./9_2_Specifying_a_Location.md)<br />
 [Edit: Editing source files](./9_3_Editing_Source_Files.md)<br />
+[Search: Searching source files](./9_4_Searching_Source_Files.md)<br />
