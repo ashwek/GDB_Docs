@@ -102,6 +102,14 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
         <a href="./9_Examining_Source_Files.md">Examining Source Files</a>
         <ol type="1">
             <li><a href="./9_1_Printing_Source_Lines.md">Printing Source Lines</a></li>
+            <li>
+                <a href="./9_2_Specifying_a_Location.md">Specifying a Location</a>
+                <ol type="1">
+                    <li><a href="./9_2_1_Linespec_Locations.md">Linespec Locations</a></li>
+                    <li><a href="./9_2_2_Explicit_Locations.md">Explicit Locations</a></li>
+                    <li><a href="./9_2_3_Address_Locations.md">Address Locations</a></li>
+                </ol>
+            </li>
         </ol>
     </li>
 </ol>
