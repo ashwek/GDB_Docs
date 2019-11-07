@@ -98,4 +98,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li>Management of Frame Filters</li>
         </ol>
     </li>
+    <li>
+        <a href="./9_Examining_Source_Files.md">Examining Source Files</a>
+    </li>
 </ol>
