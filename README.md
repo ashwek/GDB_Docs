@@ -114,4 +114,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./9_4_Searching_Source_Files.md">Searching Source Files</a></li>
         </ol>
     </li>
+    <li>
+        <a href="./10_Examining_Data.md">Examining Data</a>
+    </li>
 </ol>
