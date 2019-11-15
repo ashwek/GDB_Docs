@@ -43,3 +43,7 @@ A more low-level way of examining data is with the ``x`` command. It examines da
 If you are interested in information about types, or about how the fields of a struct or a class are declared, use the ``ptype exp`` command rather than ``print``.
 
 Another way of examining values of expressions and type information is through the Python extension command ``explore``.
+
+----
+
+[Expressions: Expressions](./10_1_Expressions.md)<br />
