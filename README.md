@@ -119,6 +119,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
         <ol type="1">
             <li><a href="./10_1_Expressions.md">Expressions</a></li>
             <li><a href="./10_2_Ambiguous_Expressions.md">Ambiguous Expressions</a></li>
+            <li><a href="./10_3_Program_Variables.md">Program Variables</a></li>
         </ol>
     </li>
 </ol>

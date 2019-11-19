@@ -48,3 +48,4 @@ Another way of examining values of expressions and type information is through t
 
 [Expressions: Expressions](./10_1_Expressions.md)<br />
 [Ambiguous Expressions: Ambiguous Expressions](./10_2_Ambiguous_Expressions.md)<br />
+[Variables: Program variables](./10_3_Program_Variables.md)<br />
