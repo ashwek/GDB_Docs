@@ -52,3 +52,4 @@ Another way of examining values of expressions and type information is through t
 [Arrays: Artificial arrays](./10_4_Artificial_Arrays.md)<br />
 [Output Formats: Output formats](./10_5_Output_Formats.md)<br />
 [Memory: Examining memory](./10_6_Examining_Memory.md)<br />
+[Auto Display: Automatic display](./10_7_Automatic_Display.md)<br />

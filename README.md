@@ -123,6 +123,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./10_4_Artificial_Arrays.md">Artificial Arrays</a></li>
             <li><a href="./10_5_Output_Formats.md">Output Formats</a></li>
             <li><a href="./10_6_Examining_Memory.md">Examining Memory</a></li>
+            <li><a href="./10_7_Automatic_Display.md">Automatic Display</a></li>
         </ol>
     </li>
 </ol>
