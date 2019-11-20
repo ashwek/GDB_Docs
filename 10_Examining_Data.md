@@ -54,3 +54,4 @@ Another way of examining values of expressions and type information is through t
 [Memory: Examining memory](./10_6_Examining_Memory.md)<br />
 [Auto Display: Automatic display](./10_7_Automatic_Display.md)<br />
 [Print Settings: Print settings](./10_8_Print_Settings.md)<br />
+[Pretty Printing: Python pretty printing](./10_9_Pretty_Printing.md)<br />

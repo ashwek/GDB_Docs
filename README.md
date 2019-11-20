@@ -125,6 +125,14 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./10_6_Examining_Memory.md">Examining Memory</a></li>
             <li><a href="./10_7_Automatic_Display.md">Automatic Display</a></li>
             <li><a href="./10_8_Print_Settings.md">Print Settings</a></li>
+            <li>
+                <a href="./10_9_Pretty_Printing.md">Pretty Printing</a>
+                <ol type="1">
+                    <li><a href="./10_9_1_Pretty_Printer_Introduction.md">Pretty Printer Introduction</a></li>
+                    <li><a href="./10_9_2_Pretty_Printer_Example.md">Pretty Printer Example</a></li>
+                    <li><a href="./10_9_3_Pretty_Printer_Commands.md">Pretty Printer Commands</a></li>
+                </ol>
+            </li>
         </ol>
     </li>
 </ol>
