@@ -133,6 +133,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
                     <li><a href="./10_9_3_Pretty_Printer_Commands.md">Pretty Printer Commands</a></li>
                 </ol>
             </li>
+            <li><a href="./10_10_Value_History.md">Value History</a></li>
         </ol>
     </li>
 </ol>
