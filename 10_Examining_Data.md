@@ -58,3 +58,4 @@ Another way of examining values of expressions and type information is through t
 [Value History: Value history](./10_10_Value_History.md)<br />
 Convenience Vars: Convenience variables<br />
 Convenience Funs: Convenience functions<br />
+[Registers: Register](./10_13_Registers.md)<br />
