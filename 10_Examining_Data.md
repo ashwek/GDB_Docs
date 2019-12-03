@@ -61,3 +61,4 @@ Convenience Funs: Convenience functions<br />
 [Registers: Register](./10_13_Registers.md)<br />
 Floating Point Hardware: Floating point hardware<br />
 Vector Unit: Vector Unit<br />
+[OS Information: Auxiliary data provided by operating system](./10_16_OS_Aux_Info.md)<br />

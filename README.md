@@ -139,6 +139,7 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./10_13_Registers.md">Register</a></li>
             <li>Floating Point Hardware</li>
             <li>Vector Unit</li>
+            <li><a href="./10_16_OS_Aux_Info.md">OS Auxilary Information</a></li>
         </ol>
     </li>
 </ol>
