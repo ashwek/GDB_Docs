@@ -56,3 +56,5 @@ Another way of examining values of expressions and type information is through t
 [Print Settings: Print settings](./10_8_Print_Settings.md)<br />
 [Pretty Printing: Python pretty printing](./10_9_Pretty_Printing.md)<br />
 [Value History: Value history](./10_10_Value_History.md)<br />
+Convenience Vars: Convenience variables<br />
+Convenience Funs: Convenience functions<br />
