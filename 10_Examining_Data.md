@@ -59,3 +59,5 @@ Another way of examining values of expressions and type information is through t
 Convenience Vars: Convenience variables<br />
 Convenience Funs: Convenience functions<br />
 [Registers: Register](./10_13_Registers.md)<br />
+Floating Point Hardware: Floating point hardware<br />
+Vector Unit: Vector Unit<br />
