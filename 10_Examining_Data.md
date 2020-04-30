@@ -65,3 +65,6 @@ Vector Unit: Vector Unit<br />
 [Memory Region Attributes: Memory region attributes](./10_17_Memory_Region_Attributes.md)<br />
 [Dump/Restore Files: Copy between memory and a file](./10_18_Copy_Between_Memory_and_a_File.md)<br />
 [Core File Generation: Cause a program dump its core ](./10_19_Core_Files.md)<br />
+Character Sets: Debugging programs that use a different character set than GDB does<br />
+Caching Target Data: Data caching for targets<br />
+[Searching Memory: Searching memory for a sequence of bytes](./10_22_Search_Memory.md)<br />
