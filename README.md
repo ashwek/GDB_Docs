@@ -143,4 +143,10 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li><a href="./10_17_Memory_Region_Attributes.md">Memory Region Attributes</a></li>
         </ol>
     </li>
+    <li>
+        <a href="./11_Debugging_Optimized_Code.md">Debugging Optimized Code</a>
+    </li>
+    <li>
+        C Preprocessor Macros
+    </li>
 </ol>

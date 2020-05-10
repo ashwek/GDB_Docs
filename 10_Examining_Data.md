@@ -68,3 +68,4 @@ Vector Unit: Vector Unit<br />
 Character Sets: Debugging programs that use a different character set than GDB does<br />
 Caching Target Data: Data caching for targets<br />
 [Searching Memory: Searching memory for a sequence of bytes](./10_22_Search_Memory.md)<br />
+Value Sizes: Managing memory allocated for values<br />
