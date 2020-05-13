@@ -149,4 +149,10 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
     <li>
         C Preprocessor Macros
     </li>
+    <li>
+        <a href="./13_Tracepoints.md">Tracepoints</a>
+    </li>
+    <li>
+        Debugging Programs That Use Overlays
+    </li>
 </ol>
