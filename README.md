@@ -141,6 +141,11 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li>Vector Unit</li>
             <li><a href="./10_16_OS_Aux_Info.md">OS Auxilary Information</a></li>
             <li><a href="./10_17_Memory_Region_Attributes.md">Memory Region Attributes</a></li>
+            <li><a href="./10_18_Copy_Between_Memory_and_a_File.md">Copy Between Memory and a File</a></li>
+            <li><a href="./10_19_Core_Files.md">Core Files</a></li>
+            <li>Character Sets</li>
+            <li>Searching Memory</li>
+            <li><a href="./10_22_Search_Memory.md">Search Memory</a></li>
         </ol>
     </li>
     <li>
@@ -157,5 +162,20 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
     </li>
     <li>
         <a href="./15_Using_GDB_with_Different_Languages.md">Using GDB with Different Languages</a>
+    </li>
+    <li>
+        <a href="./16_Examining_the_Symbol_Table.md">Examining the Symbol Table</a>
+    </li>
+    <li>
+        <a href="./17_Altering_Execution.md">Altering Execution</a>
+        <ol>
+            <li><a href="./17_Altering_Execution.md">Assignment</a></li>
+            <li><a href="./17_Altering_Execution.md">Jumping</a></li>
+            <li><a href="./17_Altering_Execution.md">Signaling</a></li>
+            <li><a href="./17_Altering_Execution.md">Returning</a></li>
+            <li><a href="./17_Altering_Execution.md">Calling</a></li>
+            <li><a href="./17_Altering_Execution.md">Patching</a></li>
+            <li>Compiling and Injecting code</li>
+        </ol>
     </li>
 </ol>
