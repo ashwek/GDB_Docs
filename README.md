@@ -8,15 +8,6 @@
 
 ----
 
-#### GDB commands
-
- - **CTRL + X + A** : toggle to / from **_TUI_** mode
- - **CTRL + L** : Refresh / Repaint the screen
- - **CTRL + P** / **CTRL + N** : Previous / Next commands in TUI mode
- - **CTRL + X + 2** : Second Window, cycle through (in TUI)
-
-----
-
 The purpose of a debugger such as GDB is to allow you to see what is going on “inside” another program while it executes—or what another program was doing at the moment it crashed.
 
 ----
@@ -194,6 +185,21 @@ The purpose of a debugger such as GDB is to allow you to see what is going on �
         <a href="./19_Debugging_Target.md">Specifiying a Debugging target</a>
         <ol>
             <li><a href="./19_Debugging_Target.md">Byte Order</a></li>
+        </ol>
+    </li>
+    <li>Debugging Remote Programs</li>
+    <li>Configuration-Specific Information</li>
+    <li>Controlling GDB</li>
+    <li>Extending GDB</li>
+    <li>Command Interpreters</li>
+    <li>
+        <a href="./25_GDB_TUI.md">GDB TUI</a>
+        <ol>
+            <li><a href="./25_GDB_TUI.md">Overview</a></li>
+            <li><a href="./25_GDB_TUI.md">Keys</a></li>
+            <li>Single Key Mode</li>
+            <li><a href="./25_GDB_TUI.md">Commands</a></li>
+            <li><a href="./25_GDB_TUI.md">Configurations</a></li>
         </ol>
     </li>
 </ol>
