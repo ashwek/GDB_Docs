@@ -178,4 +178,16 @@ The purpose of a debugger such as GDB is to allow you to see what is going on â€
             <li>Compiling and Injecting code</li>
         </ol>
     </li>
+    <li>
+        <a href="./18_GDB_Files.md">GDB Files</a>
+        <ol>
+            <li><a href="./18_GDB_Files.md">Files</a></li>
+            <li>File caching</li>
+            <li><a href="./17_Altering_Execution.md">Separate Debug File</a></li>
+            <li>MiniDebugInfo</li>
+            <li>Index Files</li>
+            <li>Symbol Errors</li>
+            <li>Data Files</li>
+        </ol>
+    </li>
 </ol>
